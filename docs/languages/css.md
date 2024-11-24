@@ -23,9 +23,8 @@ VS Code has support for selectors, properties and values. Use `kb(editor.action.
 
 Proposals contain extensive documentation, including a list of browsers that support the property. To see the full description text of the selected entry, use `kb(toggleSuggestionDetails)`.
 
-## Syntax coloring & color preview
 
-As you type, there is syntax highlighting as well as in context preview of colors.
+As you tghlighting as well as in context preview of colors.
 
 ![Syntax and color](images/css/color.png)
 
@@ -310,40 +309,4 @@ Set a setting to `warning` or `error` if you want to enable lint checking, use `
 Id|Description|Default
 ---|------------|----
 validate | Enables or disables all validations | true
-compatibleVendorPrefixes | When using a property with a vendor-specific prefix (for example `-webkit-transition`), make sure to also include all other vendor-specific properties e.g. `-moz-transition`, `-ms-transition` and `-o-transition` | ignore
-vendorPrefix | When using a property with a vendor-specific prefix for example `-webkit-transition`, make sure to also include the standard property if it exists e.g. `transition` | warning
-duplicateProperties | Warn about duplicate properties in the same ruleset | ignore
-emptyRules | Warn about empty rulesets | warning
-importStatement | Warn about using an `import` statement as import statements are loaded sequentially which has a negative impact on web page performance | ignore
-boxModel | Do not use `width` or `height` when using `padding` or `border` | ignore
-universalSelector | Warn when using the universal selector `*` as it is known to be slow and should be avoided | ignore
-zeroUnits | Warn when having zero with a unit e.g. `0em` as zero does not need a unit. | ignore
-fontFaceProperties | Warn when using `@font-face` rule without defining a `src` and `font-family` property | warning
-hexColorLength | Warn when using hex numbers that don't consist of three or six hex numbers | error
-argumentsInColorFunction | Warn when an invalid number of parameters in color functions e.g. `rgb` | error
-unknownProperties | Warn when using an unknown property | warning
-ieHack | Warn when using an IE hack `*propertyName` or `_propertyName` | ignore
-unknownVendorSpecificProperties | Warn when using an unknown vendor-specific property | ignore
-propertyIgnoredDueToDisplay | Warn when using a property that is ignored due to the display. For example, with `display: inline`, the `width`, `height`, `margin-top`, `margin-bottom`, and `float` properties have no effect. | warning
-important | Warn when using `!important` as it is an indication that the specificity of the entire CSS has gotten out of control and needs to be refactored. | ignore
-float | Warn when using `float` as floats lead to fragile CSS that is easy to break if one aspect of the layout changes. | ignore
-idSelector | Warn when using selectors for an id `#id` as selectors should not contain IDs because these rules are too tightly coupled with the HTML. | ignore
-
-## Next steps
-
-Read on to find out about:
-
-* [Configure Tasks](/docs/editor/tasks.md) - Dig into Tasks to help you transpile your SCSS and Less to CSS.
-* [Basic Editing](/docs/editor/codebasics.md) - Learn about the powerful VS Code editor.
-* [Code Navigation](/docs/editor/editingevolved.md) - Move quickly through your source code.
-* [HTML](/docs/languages/html.md) - CSS is just the start, HTML is also very well supported in VS Code.
-
-## Common questions
-
-### Does VS Code provide a color picker?
-
-Yes, hover over a CSS color reference and the color picker is displayed.
-
-### Is there support for the indentation based Sass syntax (.sass)?
-
-No, but there are several extensions in the Marketplace supporting the indented flavor of Sass, for example, the [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented) extension originally created by Robin Bentley, now maintained by Leonard Grosoli.
+compatibleVendorPrefixes | When using a property wit
